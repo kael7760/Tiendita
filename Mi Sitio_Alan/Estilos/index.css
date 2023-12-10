@@ -1,0 +1,98 @@
+.contenedor{
+    width: 100%;
+    height: 140px;
+    background-color: var(--principal);
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --pe:40px;
+    --color1:#ab0033;
+    --color2:#f7a6c0;
+    --principal:black;
+    --color3:white;
+}
+.contenedor__logo{
+    margin-top: -15px;
+    color: var(--color1);
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    text-shadow: var(--color1) 10px 10px 10px;
+}
+.contenedor__logo_elemento{
+    position: relative;
+    top: 20px;
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color3);
+    margin-top: -15px;
+}
+.contenedor .iconos{
+    margin-top: var(--pe);
+    margin-top: 50px;
+}
+.contenedor .iconos>svg{
+    padding: .5rem;
+    cursor: pointer;
+}
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--color3);
+    background-color: var(--principal);
+    height: 90px;
+}
+.lista div{
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 5px;
+}
+.lista div:hover{
+    color: var(--color1);
+}
+.contenedor__portada{
+    display: flex;
+    height: 400px;
+}
+.contenedor__portada .menu{
+    width: 20%;
+    border: none;
+}
+.portada{
+    width: 80%;
+}
+.pie{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--principal);
+}
+.contenedor__pie{
+    background-color: var(--principal);
+}
+.pie ul{
+    color: var(--color3);
+}
+.pie ul li{
+    padding: 10px;
+    list-style: none;
+}
+.redes{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.redes>svg{
+    padding-left: 40px;
+    cursor: pointer;
+}
+h4{
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+    color: var(--color3);
+}
