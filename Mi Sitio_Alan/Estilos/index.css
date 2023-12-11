@@ -88,6 +88,11 @@ body{
     text-decoration: none;
     font-family: var(--fuenteCuerpo);
     font-weight: bold;
+    color:var(--color3);
+}
+.pie ul li a:hover{
+    color:var(--color1);
+    text-decoration: underline;
 }
 .redes{
     height: 100px;
