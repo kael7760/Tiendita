@@ -62,7 +62,7 @@ body{
 }
 .contenedor__portada{
     display: flex;
-    height: 600px;
+    height: 2150px;
 }
 .contenedor__portada .menu{
     width: 15%;
@@ -115,65 +115,59 @@ h4{
     color: var(--color3);
 }
 /* Cuerpo de pagina */
-.portada .imagen{
-    width: 100%;
-    height: 100%;
-    background-image: url(../Imagenes/Portada.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-}
-.e1{
-    font-size: 3.8rem;
-}
-.e2{
-    font-size: 2.8rem;
-}
-.e3{
-    font-size: 1.8rem;
-}
-.e1,.e2,.e3{
-    color: var(--color3);
-    text-align: center;
-    font-family: var(--fuentePortada);
-    font-weight: bold;
-    margin: 0px;
-    z-index: 1;
-}
-.fondo{
-    width: 600px;
-    height: 300px;
-    position: absolute;
-    left:0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background:rgba(0, 0, 0, .4);
-}
-.e{
-    list-style: none;
-    padding: 1.4rem;
-    display: flex;
-    align-items: center;
-    height: 20px;
-    width: 150px;
-}
-.e :hover{
-    background-color: rgb(232, 230, 230);
-}
-.elementos{
-    padding: 10px;
-    padding-right: 50px;
-    border-radius: 5px;
-}
-.e a{
-    font-family: var(--fuentePortada);
-    font-size: 20px;
-    margin-left: 5px;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
+    /*Lista de Categorias */
+    
+    .e{
+        list-style: none;
+        padding: 1.4rem;
+        display: flex;
+        align-items: center;
+        height: 20px;
+        width: 200px;
+    }
+    .e :hover{
+        background-color: rgb(232, 230, 230);
+    }
+    .elementos{
+        padding: 10px;
+        padding-right: 50px;
+        border-radius: 5px;
+    }
+    .e a{
+        font-family: var(--fuentePortada);
+        font-size: 20px;
+        margin-left: 5px;
+        color: black;
+        text-decoration: none;
+    }
+    /*Catalogo */
+    .contenedor_catalogo{
+        width: 90%;
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor_catalogo .titulo{
+        background: linear-gradient(to right, #1a1a1a, #006666);
+        width: 100%;
+        height: 140px;
+        color: var(--color3);
+        font-family: var(--fuenteTitulo);
+        text-align: center;
+    }
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,300px);
+        gap: 10px;
+    }
+    .item{
+        font-family: var(--fuentePortada);
+        cursor: pointer;
+        margin: auto;
+        padding: 10px;
+    }
+    .item:hover{
+        border: #1a1a1a solid 1px;
+        box-shadow: #006666 1px 1px 10px;
+    }
