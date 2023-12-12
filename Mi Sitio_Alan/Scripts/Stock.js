@@ -1,4 +1,6 @@
 const contenedor = document.querySelector(".catalogo");
+const logo=document.querySelector(".contenedor__logo");
+logo.addEventListener("click",()=>window.location.href = "Index.html");
 const libros = [
     ["Caminando en la Luna", "Maria Rodriguez"],
     ["Sombras del Pasado", "Alejandro Gómez"],
@@ -35,4 +37,5 @@ for(i=0;i<20;i++){
     div.innerHTML = libro1.join(``);
     contenedor.appendChild(div);
 }
+
 
