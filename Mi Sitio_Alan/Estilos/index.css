@@ -72,6 +72,10 @@ body{
     width: 85%;
     height: 500px;
 }
+.elemento a {
+    text-decoration: none;
+    color: white;
+}
 /* Pie de pagina */
 .pie{
     display: flex;
