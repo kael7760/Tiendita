@@ -171,3 +171,43 @@ h4{
         border: #1a1a1a solid 1px;
         box-shadow: #006666 1px 1px 10px;
     }
+@media (min-width : 490px){
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,290px);
+        gap: 10px;
+    }
+}
+@media screen and (min-width : 768px) and (max-width:900px){
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,260px);
+        gap: 10px;
+    }
+}
+@media screen and (min-width : 1280px) and (max-width:1300px){
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,250px);
+        gap: 10px;
+    }
+}
+@media screen and (min-width : 1366px) and (max-width:1400px){
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,270px);
+        gap: 10px;
+    }
+}
+@media screen and (min-width : 1430px) and (max-width:1500px){
+    .catalogo{
+        margin-left: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,270px);
+        gap: 10px;
+    }
+}
