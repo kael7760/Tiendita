@@ -1,0 +1,186 @@
+/* Cabecera de la pagina */
+.contenedor{
+    width: 100%;
+    height: 140px;
+    background-color: var(--principal);
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --pe:40px;
+    --color1:#ab0033;
+    --color2:#f7a6c0;
+    --principal:black;
+    --color3:white;
+    --fuenteTitulo:'Pacifico', cursive;
+    --fuenteCuerpo:'Poppins', sans-serif;
+    --fuentePortada:'Josefin Sans', sans-serif;
+}
+.contenedor__logo{
+    margin-top: -15px;
+    color: var(--color1);
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    text-shadow: var(--color1) 10px 10px 10px;
+}
+.contenedor__logo_elemento{
+    position: relative;
+    top: 20px;
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color3);
+    margin-top: -15px;
+}
+.contenedor .iconos{
+    margin-top: var(--pe);
+    margin-top: 50px;
+}
+.contenedor .iconos>svg{
+    padding: .5rem;
+    cursor: pointer;
+}
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--color3);
+    background-color: var(--principal);
+    height: 90px;
+    font-weight: bold;
+}
+.lista div{
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 5px;
+}
+.lista div:hover{
+    color: var(--color1);
+}
+.contenedor__portada{
+    display: flex;
+    height: 600px;
+}
+.contenedor__portada .menu{
+    width: 15%;
+    border: none;
+}
+.portada{
+    width: 85%;
+    height: 590px;
+}
+.elemento a {
+    text-decoration: none;
+    color: white;
+}
+/* Pie de pagina */
+.pie{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--color3);
+    background-color: var(--principal);
+}
+.contenedor__pie{
+    background-color: var(--principal);
+}
+.pie ul{
+    color: var(--color3);
+}
+.pie ul li{
+    padding: 10px;
+    list-style: none;
+}
+.pie ul li a{
+    text-decoration: none;
+    font-family: var(--fuenteCuerpo);
+    font-weight: bold;
+    color:var(--color3);
+}
+.pie ul li a:hover{
+    color:var(--color1);
+    text-decoration: underline;
+}
+.redes{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.redes>svg{
+    padding-left: 40px;
+    cursor: pointer;
+}
+h4{
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+    color: var(--color3);
+}
+/* Cuerpo de pagina */
+.portada .imagen{
+    width: 100%;
+    height: 100%;
+    background-image: url(../Imagenes/Portada.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.e1{
+    font-size: 3.8rem;
+}
+.e2{
+    font-size: 1.8rem;
+}
+.e3{
+    font-size: 1.8rem;
+}
+.e4{
+    font-size: 1.8rem;
+}
+.e1,.e2,.e3,.e4{
+    color: var(--color3);
+    text-align: center;
+    font-family: var(--fuentePortada);
+    font-weight: bold;
+    margin: 0px;
+    z-index: 1;
+}
+.fondo{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background:rgba(0, 0, 0, .4);
+}
+.e{
+    list-style: none;
+    padding: 1.4rem;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 200px;
+}
+.e :hover{
+    background-color: rgb(232, 230, 230);
+}
+.elementos{
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 5px;
+}
+.e a{
+    font-family: var(--fuentePortada);
+    font-size: 20px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
