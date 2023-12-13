@@ -1,5 +1,5 @@
 const principal=document.querySelector(".datos");
-let datos=["User0000","************","user000@gmail.com","La Paz-Bolivia","Masculino","19","Estudiante"];
+let datos=["Grupo 18","************","grupo18@gmail.com","La Paz-Bolivia","Masculino","19","Estudiante"];
     let div1=document.createElement("DIV");
     div1.classList.add(".principal");
     div1.innerHTML=`<h2 class="datos principal">Datos Principales</h2><p>Nombre de Usuario : ${datos[0]}</p><hr>
